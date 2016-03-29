@@ -1,0 +1,337 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{00}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{{\tt DOI:}\penalty0{#1}\ }
+  \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       #1{#1}          \fi
+
+\bibitem{bekhor2015investigation}
+{S Bekhor} {and} {I~Blum Shem-Tov}. 2015.
+\newblock \showarticletitle{Investigation of travel patterns using passive
+  cellular phone data}.
+\newblock {\em Journal of Location Based Services\/} (2015), 1--20.
+\newblock
+
+
+\bibitem{biljecki2013transportation}
+{Filip Biljecki}, {Hugo Ledoux}, {and} {Peter Van~Oosterom}. 2013.
+\newblock \showarticletitle{Transportation mode-based segmentation and
+  classification of movement trajectories}.
+\newblock {\em International Journal of Geographical Information Science\/}
+  {27}, 2 (2013), 385--407.
+\newblock
+
+
+\bibitem{cho2011friendship}
+{Eunjoon Cho}, {Seth~A Myers}, {and} {Jure Leskovec}. 2011.
+\newblock \showarticletitle{Friendship and mobility: user movement in
+  location-based social networks}. In {\em Proceedings of the 17th ACM SIGKDD
+  international conference on Knowledge discovery and data mining}. ACM,
+  1082--1090.
+\newblock
+
+
+\bibitem{doyle2011utilising}
+{John Doyle}, {Peter Hung}, {Damien Kelly}, {Se{\'a}n McLoone}, {and} {Ronan
+  Farrell}. 2011.
+\newblock \showarticletitle{Utilising mobile phone billing records for travel
+  mode discovery}.
+\newblock  (2011).
+\newblock
+
+
+\bibitem{ficek2012inter}
+{Michal Ficek} {and} {Lukas Kencl}. 2012.
+\newblock \showarticletitle{Inter-call mobility model: A spatio-temporal
+  refinement of call data records using a Gaussian mixture model}. In {\em
+  INFOCOM, 2012 Proceedings IEEE}. IEEE, 469--477.
+\newblock
+
+
+\bibitem{gambs2012next}
+{S{\'e}bastien Gambs}, {Marc-Olivier Killijian}, {and} {Miguel~N{\'u}{\~n}ez
+  del Prado~Cortez}. 2012.
+\newblock \showarticletitle{Next place prediction using mobility markov
+  chains}. In {\em Proceedings of the First Workshop on Measurement, Privacy,
+  and Mobility}. ACM, 3.
+\newblock
+
+
+\bibitem{Hemminki:2013:ATM:2517351.2517367}
+{Samuli Hemminki}, {Petteri Nurmi}, {and} {Sasu Tarkoma}. 2013.
+\newblock \showarticletitle{Accelerometer-based Transportation Mode Detection
+  on Smartphones}. In {\em Proceedings of the 11th ACM Conference on Embedded
+  Networked Sensor Systems} {\em (SenSys '13)}. ACM, New York, NY, USA, Article
+  13, 14 pages.
+\newblock
+\showISBNx{978-1-4503-2027-6}
+\showDOI{%
+\url{http://dx.doi.org/10.1145/2517351.2517367}}
+
+
+\bibitem{hoteit2014estimating}
+{Sahar Hoteit}, {Stefano Secci}, {Stanislav Sobolevsky}, {Carlo Ratti}, {and}
+  {Guy Pujolle}. 2014.
+\newblock \showarticletitle{Estimating human trajectories and hotspots through
+  mobile phone data}.
+\newblock {\em Computer Networks\/}  {64} (2014), 296--307.
+\newblock
+
+
+\bibitem{jiang2013review}
+{Shan Jiang}, {Gaston~A Fiore}, {Yingxiang Yang}, {Joseph Ferreira~Jr}, {Emilio
+  Frazzoli}, {and} {Marta~C Gonz{\'a}lez}. 2013.
+\newblock \showarticletitle{A review of urban computing for mobile phone
+  traces: current methods, challenges and opportunities}. In {\em Proceedings
+  of the 2nd ACM SIGKDD International Workshop on Urban Computing}. ACM, 2.
+\newblock
+
+
+\bibitem{manzoni2010transportation}
+{Vincenzo Manzoni}, {Diego Maniloff}, {Kristian Kloeckl}, {and} {Carlo Ratti}.
+  2010.
+\newblock \showarticletitle{Transportation mode identification and real-time
+  CO2 emission estimation using smartphones}.
+\newblock {\em SENSEable City Lab, Massachusetts Institute of Technology, nd\/}
+  (2010).
+\newblock
+
+
+\bibitem{meng2014analyzing}
+{Lei Meng}, {Shu Liu}, {and} {Aaron~D Striegel}. 2014.
+\newblock \showarticletitle{Analyzing the impact of proximity, location, and
+  personality on smartphone usage}. In {\em Computer Communications Workshops
+  (INFOCOM WKSHPS), 2014 IEEE Conference on}. IEEE, 293--298.
+\newblock
+
+
+\bibitem{Alsolami2012Auth}
+{Math�~Young Mosny}. 2006.
+\newblock {\em Path Estimation Using Cellular Handover}.
+\newblock Ph.D. Dissertation. Princeton University.
+\newblock
+
+
+\bibitem{Noulas11}
+{Anastasios Noulas}, {Salvatore Scellato}, {Cecilia Mascolo}, {and}
+  {Massimiliano Pontil}. 2011.
+\newblock \showarticletitle{An Empirical Study of Geographic User Activity
+  Patterns in Foursquare}. In {\em Proceedings of the Fifth International AAAI
+  Conference on Weblogs and Social Media}. 570--573.
+\newblock
+
+
+\bibitem{6958169}
+{H. Ohashi}, {T. Akiyama}, {M. Yamamoto}, {and} {A. Sato}. 2014.
+\newblock \showarticletitle{Automatic trip-separation method using sensor data
+  continuously collected by smartphone}. In {\em Intelligent Transportation
+  Systems (ITSC), 2014 IEEE 17th International Conference on}. 2984--2990.
+\newblock
+\showDOI{%
+\url{http://dx.doi.org/10.1109/ITSC.2014.6958169}}
+
+
+\bibitem{Reddy:2010:UMP:1689239.1689243}
+{Sasank Reddy}, {Min Mun}, {Jeff Burke}, {Deborah Estrin}, {Mark Hansen}, {and}
+  {Mani Srivastava}. 2010.
+\newblock \showarticletitle{Using Mobile Phones to Determine Transportation
+  Modes}.
+\newblock {\em ACM Trans. Sen. Netw.\/} {6}, 2, Article 13 (March 2010), 27
+  pages.
+\newblock
+\showISSN{1550-4859}
+\showDOI{%
+\url{http://dx.doi.org/10.1145/1689239.1689243}}
+
+
+\bibitem{rose2006mobile}
+{Geoff Rose}. 2006.
+\newblock \showarticletitle{Mobile phones as traffic probes: practices,
+  prospects and issues}.
+\newblock {\em Transport Reviews\/} {26}, 3 (2006), 275--291.
+\newblock
+
+
+\bibitem{5283030}
+{J. Ryder}, {B. Longstaff}, {S. Reddy}, {and} {D. Estrin}. 2009.
+\newblock \showarticletitle{Ambulation: A Tool for Monitoring Mobility Patterns
+  over Time Using Mobile Phones}. In {\em Computational Science and
+  Engineering, 2009. CSE '09. International Conference on}, Vol.~4. 927--931.
+\newblock
+\showDOI{%
+\url{http://dx.doi.org/10.1109/CSE.2009.312}}
+
+
+\bibitem{shafiq2012characterizing}
+{M~Zubair Shafiq}, {Lusheng Ji}, {Alex~X Liu}, {Jeffrey Pang}, {and} {Jia
+  Wang}. 2012.
+\newblock \showarticletitle{Characterizing geospatial dynamics of application
+  usage in a 3G cellular data network}. In {\em INFOCOM, 2012 Proceedings
+  IEEE}. IEEE, 1341--1349.
+\newblock
+
+
+\bibitem{shin2015urban}
+{Dongyoun Shin}, {Daniel Aliaga}, {Bige Tun{\c{c}}er}, {Stefan~M{\"u}ller
+  Arisona}, {Sungah Kim}, {Dani Z{\"u}nd}, {and} {Gerhard Schmitt}. 2015.
+\newblock \showarticletitle{Urban sensing: Using smartphones for transportation
+  mode classification}.
+\newblock {\em Computers, Environment and Urban Systems\/}  {53} (2015),
+  76--86.
+\newblock
+
+
+\bibitem{smoreda2013spatiotemporal}
+{Zbigniew Smoreda}, {Ana-Maria Olteanu-Raimond}, {Thomas Couronn{\'e}}, {and}
+  {others}. 2013.
+\newblock \showarticletitle{Spatiotemporal data from mobile phones for personal
+  mobility assessment}.
+\newblock {\em Transport survey methods: best practice for decision making\/}
+  {41} (2013), 745--767.
+\newblock
+
+
+\bibitem{sohn2006mobility}
+{Timothy Sohn}, {Alex Varshavsky}, {Anthony LaMarca}, {Mike~Y Chen}, {Tanzeem
+  Choudhury}, {Ian Smith}, {Sunny Consolvo}, {Jeffrey Hightower}, {William~G
+  Griswold}, {and} {Eyal De~Lara}. 2006.
+\newblock \showarticletitle{Mobility detection using everyday gsm traces}.
+\newblock In {\em UbiComp 2006: Ubiquitous Computing}. Springer, 212--224.
+\newblock
+
+
+\bibitem{stenneth2011transportation}
+{Leon Stenneth}, {Ouri Wolfson}, {Philip~S Yu}, {and} {Bo Xu}. 2011.
+\newblock \showarticletitle{Transportation mode detection using mobile phones
+  and GIS information}. In {\em Proceedings of the 19th ACM SIGSPATIAL
+  International Conference on Advances in Geographic Information Systems}. ACM,
+  54--63.
+\newblock
+
+
+\bibitem{6038808}
+{C. Tacconi}, {S. Mellone}, {and} {L. Chiari}. 2011.
+\newblock \showarticletitle{Smartphone-based applications for investigating
+  falls and mobility}. In {\em Pervasive Computing Technologies for Healthcare
+  (PervasiveHealth), 2011 5th International Conference on}. 258--261.
+\newblock
+
+
+\bibitem{6450942}
+{K. Waga}, {A. Tabarcea}, {Minjie Chen}, {and} {P. Franti}. 2012.
+\newblock \showarticletitle{Detecting movement type by route segmentation and
+  classification}. In {\em Collaborative Computing: Networking, Applications
+  and Worksharing (CollaborateCom), 2012 8th International Conference on}.
+  508--513.
+\newblock
+\showDOI{%
+\url{http://dx.doi.org/10.4108/icst.collaboratecom.2012.250450}}
+
+
+\bibitem{wang2010transportation}
+{Huayong Wang}, {Francesco Calabrese}, {Giusy Di~Lorenzo}, {and} {Carlo Ratti}.
+  2010a.
+\newblock \showarticletitle{Transportation mode inference from anonymized and
+  aggregated mobile phone call detail records}. In {\em Intelligent
+  Transportation Systems (ITSC), 2010 13th International IEEE Conference on}.
+  IEEE, 318--323.
+\newblock
+
+
+\bibitem{wang2010accelerometer}
+{Shuangquan Wang}, {Canfeng Chen}, {and} {Jian Ma}. 2010b.
+\newblock \showarticletitle{Accelerometer based transportation mode recognition
+  on mobile phones}. In {\em 2010 Asia-Pacific Conference on Wearable Computing
+  Systems}. IEEE, 44--46.
+\newblock
+
+
+\bibitem{wang2014mobile}
+{Tingting Wang}, {Cynthia Chen}, {and} {Jingtao Ma}. 2014.
+\newblock \showarticletitle{Mobile phone data as an alternative data source for
+  travel behavior studies}. In {\em Transportation Research Board 93rd Annual
+  Meeting}.
+\newblock
+
+
+\bibitem{6460199}
+{P. Widhalm}, {P. Nitsche}, {and} {N. Brändie}. 2012.
+\newblock \showarticletitle{Transport mode detection with realistic Smartphone
+  sensor data}. In {\em Pattern Recognition (ICPR), 2012 21st International
+  Conference on}. 573--576.
+\newblock
+\showISSN{1051-4651}
+
+
+\bibitem{widhalm2015discovering}
+{Peter Widhalm}, {Yingxiang Yang}, {Michael Ulm}, {Shounak Athavale}, {and}
+  {Marta~C Gonz{\'a}lez}. 2015.
+\newblock \showarticletitle{Discovering urban activity patterns in cell phone
+  data}.
+\newblock {\em Transportation\/} {42}, 4 (2015), 597--623.
+\newblock
+
+
+\bibitem{xu2011identifying}
+{Qiang Xu}, {Jeffrey Erman}, {Alexandre Gerber}, {Zhuoqing Mao}, {Jeffrey
+  Pang}, {and} {Shobha Venkataraman}. 2011.
+\newblock \showarticletitle{Identifying diverse usage behaviors of smartphone
+  apps}. In {\em Proceedings of the 2011 ACM SIGCOMM conference on Internet
+  measurement conference}. ACM, 329--344.
+\newblock
+
+
+\bibitem{yan2012fast}
+{Tingxin Yan}, {David Chu}, {Deepak Ganesan}, {Aman Kansal}, {and} {Jie Liu}.
+  2012.
+\newblock \showarticletitle{Fast app launching for mobile devices using
+  predictive user context}. In {\em Proceedings of the 10th international
+  conference on Mobile systems, applications, and services}. ACM, 113--126.
+\newblock
+
+
+\bibitem{yang2015characterizing}
+{Jie Yang}, {Yuanyuan Qiao}, {Xinyu Zhang}, {Haiyang He}, {Fang Liu}, {and}
+  {Gang Cheng}. 2015.
+\newblock \showarticletitle{Characterizing User Behavior in Mobile Internet}.
+\newblock {\em Emerging Topics in Computing, IEEE Transactions on\/} {3}, 1
+  (2015), 95--106.
+\newblock
+
+
+\bibitem{zheng2010understanding}
+{Yu Zheng}, {Yukun Chen}, {Quannan Li}, {Xing Xie}, {and} {Wei-Ying Ma}. 2010.
+\newblock \showarticletitle{Understanding transportation modes based on GPS
+  data for web applications}.
+\newblock {\em ACM Transactions on the Web (TWEB)\/} {4}, 1 (2010), 1.
+\newblock
+
+
+\end{thebibliography}

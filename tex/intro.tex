@@ -1,0 +1,18 @@
+\section{Introduction}
+
+Smartphone has seen a rapid growth during last decades. 74.9 percent of mobile subscribers use smartphone in the U.S in early 2015. Accompanied with the rapid growth of smartphone is the explosive growth of smartphone apps. Number of apps in both Google Play and Apple App Store exceed 1.5 million by July 2015. The time people spent on smartphone apps has achieved more than 30 hours monthly and seen a growth over 65 percent compared to 2013.
+
+The increasing importance of smartphone apps attracts a large research body to study smartphone app usage behavior ~\cite{xu2011identifying, yang2015characterizing}. Both temporal pattern (individual app usage history) and spatial pattern (context correlation) have been well studied. These studies not only help us understand how people using smartphone apps that is useful in re, but also enable applications such as smartphone app launching prediction ~\cite{yan2012fast} and customized smartphone app recommendation [need another reference]. However, the user mobility, which also plays an critical role in users' app usage, yet has not received well attention on their correlation with users' app usage behavior. The reason could be that user mobility are usually not directly available in cell-phone traces and are not very easy to acquire.
+
+Previously, inference of user's mobility such as transportation mode are highly rely on additional hardware (e.g. GPS, sensors) or surveys. Both suffer from availability and scalability issues. ~\cite{rose2006mobile} indicates there is great potential of using cell-phones to monitor users' mobility. Later, several paper have studied the problem of inferring users' trajectory \cite{Alsolami2012Auth,jiang2013review} or transportation mode  ~\cite{wang2010transportation,doyle2011utilising,bekhor2015investigation} from various cell-phone traces (e.g. Call Detail Records, handover data). Compared to previous methods, such an approach does not require additional resources and have excellent coverage. 
+
+The location data conatined in most mobile phone traces are quite limited, usually only the cell phone tower ID with which it communicated. So the localization accuracy of these traces are very poor. As a result, only limited user mobility can be extracted from the data, i.e. approximated trajectory ~\cite{smoreda2013spatiotemporal, hoteit2014estimating, widhalm2015discovering, Alsolami2012Auth, jiang2013review} or mobility motif ~\cite{wang2014mobile, gambs2012next}. And the trajectory inferred from such data are in a quite coarse grained way. In our work, we use passing boundary events combined with distance lower bound estimation to overcome the above issues to robustly estimate the speed of each user. 
+
+Previous work on geospatial smartphone app usage mainly focus on spatial correlation of smartphone app usage volume ~\cite{shafiq2012characterizing, yang2015characterizing}. Limited work on correlation of user mobility and mobile phone app usage have been done. In this paper, by analyzing the data traffic collected at three cities in China, we reveal the correlation of user's speed and several aspects including data volume, access frequency, market share of apps in smartphone app usage. 
+
+Our main contribution is:
+\begin{itemize}
+	\item Reveal correlation of user mobility and smartphone app usage pattern
+	\item Improved user mobility inference to meet specific need of revealing correlations.
+\end{itemize}
+
