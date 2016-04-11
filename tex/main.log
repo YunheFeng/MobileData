@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.26)  25 MAR 2016 10:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.26)  1 APR 2016 11:11
 entering extended mode
 **main.tex
 (main.tex
@@ -1191,177 +1191,293 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Non-PDF special ignored!
 
-]) (relate.tex) (problem.tex
-<figures/record_count_hist.pdf, id=197, 614.295pt x 469.755pt>
+]) (problem.tex) (data.tex
+<figures/record_count_hist.pdf, id=138, 614.295pt x 469.755pt>
 File: figures/record_count_hist.pdf Graphic file (type pdf)
 
 <use figures/record_count_hist.pdf>
-Package pdftex.def Info: figures/record_count_hist.pdf used on input line 24.
+Package pdftex.def Info: figures/record_count_hist.pdf used on input line 5.
 (pdftex.def)             Requested size: 163.89162pt x 125.33029pt.
 
-<figures/time_interval_hist.pdf, id=198, 614.295pt x 469.755pt>
+<figures/time_interval_hist.pdf, id=139, 614.295pt x 469.755pt>
 File: figures/time_interval_hist.pdf Graphic file (type pdf)
 
 <use figures/time_interval_hist.pdf>
-Package pdftex.def Info: figures/time_interval_hist.pdf used on input line 25.
+Package pdftex.def Info: figures/time_interval_hist.pdf used on input line 6.
 (pdftex.def)             Requested size: 163.89162pt x 125.33029pt.
 
-<figures/visited_tower_hist.pdf, id=199, 614.295pt x 469.755pt>
+<figures/visited_tower_hist.pdf, id=140, 614.295pt x 469.755pt>
 File: figures/visited_tower_hist.pdf Graphic file (type pdf)
 
 <use figures/visited_tower_hist.pdf>
-Package pdftex.def Info: figures/visited_tower_hist.pdf used on input line 26.
+Package pdftex.def Info: figures/visited_tower_hist.pdf used on input line 7.
 (pdftex.def)             Requested size: 163.89162pt x 125.33029pt.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 14.
 
-Overfull \hbox (10.68515pt too wide) in paragraph at lines 39--61
- [][] 
- []
 
-<./figures/typical_user.pdf, id=202, 691.83469pt x 757.32938pt>
+LaTeX Warning: Reference `fig:data_stat' on page \thepage  undefined on input l
+ine 14.
+
+
+LaTeX Warning: Reference `fig:data_stat' on page \thepage  undefined on input l
+ine 14.
+
+<./figures/typical_user.pdf, id=141, 691.83469pt x 757.32938pt>
 File: ./figures/typical_user.pdf Graphic file (type pdf)
 
 <use ./figures/typical_user.pdf>
-Package pdftex.def Info: ./figures/typical_user.pdf used on input line 69.
+Package pdftex.def Info: ./figures/typical_user.pdf used on input line 20.
 (pdftex.def)             Requested size: 243.98238pt x 267.07997pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (approach.tex [2]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3 <./figures/record_count_hist.pdf> <./figures/time_interval_hist.pdf> <./fig
-ures/visited_tower_hist.pdf> <./figures/typical_user.pdf>]
-<./figures/system_overview.pdf, id=269, 908.64468pt x 285.69737pt>
+LaTeX Warning: Reference `fig:typical_user' on page \thepage  undefined on inpu
+t line 25.
+
+) (approach.tex
+
+LaTeX Warning: Reference `fig:data_stat' on page \thepage  undefined on input l
+ine 5.
+
+<./figures/system_overview.pdf, id=142, 908.64468pt x 285.69737pt>
 File: ./figures/system_overview.pdf Graphic file (type pdf)
 
 <use ./figures/system_overview.pdf>
-Package pdftex.def Info: ./figures/system_overview.pdf used on input line 9.
+Package pdftex.def Info: ./figures/system_overview.pdf used on input line 11.
 (pdftex.def)             Requested size: 512.1496pt x 161.03133pt.
-
-<./figures/passing_boundary.pdf, id=271, 723.45282pt x 274.02374pt>
+ [2]
+<./figures/passing_boundary.pdf, id=160, 723.45282pt x 274.02374pt>
 File: ./figures/passing_boundary.pdf Graphic file (type pdf)
 
 <use ./figures/passing_boundary.pdf>
-Package pdftex.def Info: ./figures/passing_boundary.pdf used on input line 20.
+Package pdftex.def Info: ./figures/passing_boundary.pdf used on input line 22.
 (pdftex.def)             Requested size: 243.98238pt x 92.4142pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5260) has occurred while \output is active []
 
- [4]
-<./figures/illustrate_cases.pdf, id=288, 440.02393pt x 367.3725pt>
+ [3 <./figures/record_count_hist.pdf> <./figures/time_interval_hist.pdf> <./fig
+ures/visited_tower_hist.pdf> <./figures/typical_user.pdf>]
+<./figures/illustrate_cases.pdf, id=194, 440.02393pt x 367.3725pt>
 File: ./figures/illustrate_cases.pdf Graphic file (type pdf)
 
 <use ./figures/illustrate_cases.pdf>
 Package pdftex.def Info: ./figures/illustrate_cases.pdf used on input line 43.
 (pdftex.def)             Requested size: 243.98238pt x 203.69794pt.
 
-<./figures/voronoi_illustrate.pdf, id=290, 703.87968pt x 614.295pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figures/voronoi_illustrate.pdf, id=204, 703.87968pt x 614.295pt>
 File: ./figures/voronoi_illustrate.pdf Graphic file (type pdf)
 
 <use ./figures/voronoi_illustrate.pdf>
-Package pdftex.def Info: ./figures/voronoi_illustrate.pdf used on input line 52
+Package pdftex.def Info: ./figures/voronoi_illustrate.pdf used on input line 61
 .
 (pdftex.def)             Requested size: 243.98238pt x 212.92557pt.
- [5 <./figures/system_overview.pdf> <./figures/passing_boundary.pdf> <./figures
-/illustrate_cases.pdf> <./figures/voronoi_illustrate.pdf>]
-<./figures/virtual_boundary.pdf, id=327, 358.33875pt x 305.64188pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./figures/system_overview.pdf> <./figures/passing_boundary.pdf> <./figures
+/illustrate_cases.pdf>]
+<./figures/virtual_boundary.pdf, id=244, 358.33875pt x 305.64188pt>
 File: ./figures/virtual_boundary.pdf Graphic file (type pdf)
 
 <use ./figures/virtual_boundary.pdf>
-Package pdftex.def Info: ./figures/virtual_boundary.pdf used on input line 65.
+Package pdftex.def Info: ./figures/virtual_boundary.pdf used on input line 74.
 (pdftex.def)             Requested size: 243.98238pt x 208.1042pt.
- [6 <./figures/virtual_boundary.pdf>])
-(experiments.tex <./figures/speed_hist.pdf, id=347, 614.295pt x 469.755pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 5147) has occurred while \output is active []
+
+ [5 <./figures/voronoi_illustrate.pdf> <./figures/virtual_boundary.pdf>]) (expe
+riments.tex
+<./figures/speed_hist.pdf, id=266, 614.295pt x 469.755pt>
 File: ./figures/speed_hist.pdf Graphic file (type pdf)
 
 <use ./figures/speed_hist.pdf>
 Package pdftex.def Info: ./figures/speed_hist.pdf used on input line 11.
 (pdftex.def)             Requested size: 243.98238pt x 186.57262pt.
 
-<./figures/speed_vol.pdf, id=348, 614.295pt x 469.755pt>
+<./figures/speed_vol.pdf, id=267, 614.295pt x 469.755pt>
 File: ./figures/speed_vol.pdf Graphic file (type pdf)
 
 <use ./figures/speed_vol.pdf>
 Package pdftex.def Info: ./figures/speed_vol.pdf used on input line 22.
 (pdftex.def)             Requested size: 243.98238pt x 186.57262pt.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 27.
 
 
 LaTeX Warning: Reference `fig:vol_speed' on page \thepage  undefined on input l
 ine 27.
 
-<./figures/speed_gap.pdf, id=350, 614.295pt x 469.755pt>
+[6 <./figures/speed_hist.pdf> <./figures/speed_vol.pdf>]
+<./figures/speed_gap.pdf, id=302, 614.295pt x 469.755pt>
 File: ./figures/speed_gap.pdf Graphic file (type pdf)
 
 <use ./figures/speed_gap.pdf>
 Package pdftex.def Info: ./figures/speed_gap.pdf used on input line 34.
 (pdftex.def)             Requested size: 243.98238pt x 186.57262pt.
 
+Overfull \hbox (10.68515pt too wide) in paragraph at lines 49--71
+ [][] 
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./figures/speed_appcat.pdf, id=352, 1228.59pt x 505.89pt>
+<./figures/speed_appcat.pdf, id=305, 1228.59pt x 505.89pt>
 File: ./figures/speed_appcat.pdf Graphic file (type pdf)
 
 <use ./figures/speed_appcat.pdf>
-Package pdftex.def Info: ./figures/speed_appcat.pdf used on input line 45.
+Package pdftex.def Info: ./figures/speed_appcat.pdf used on input line 77.
 (pdftex.def)             Requested size: 512.1496pt x 210.88217pt.
- [7 <./figures/speed_hist.pdf> <./figures/speed_vol.pdf>]) (conclude.tex) (main
-.bbl
-Overfull \vbox (7.3025pt too high) has occurred while \output is active []
+) (relate.tex [7 <./figures/speed_gap.pdf>])
+(conclude.tex) (main.bbl
 
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
 
-[8 <./figures/speed_gap.pdf>] [9 <./figures/speed_appcat.pdf>])
-Overfull \vbox (0.74998pt too high) has occurred while \output is active []
-
-
-[10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 174.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 174.
+[8 <./figures/speed_appcat.pdf>] [9]) [10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
  (main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 174.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 174.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 74D9FA6CC7A87B6975E7D319EFFF5D84;1690.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 175.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 5BE8DD210F6BAAF21BF66E68B3CFEA0E;1466
+(rerunfilecheck)             After:  3A6EC1C8DBD384BCE4C4B6C7FA783FC7;1520.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 174.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 20932 strings out of 493673
- 377381 string characters out of 3143149
- 484090 words of memory out of 3000000
- 23531 multiletter control sequences out of 15000+200000
- 90395 words of font info for 236 fonts, out of 3000000 for 9000
+ 20959 strings out of 493673
+ 377643 string characters out of 3143149
+ 484982 words of memory out of 3000000
+ 23528 multiletter control sequences out of 15000+200000
+ 90591 words of font info for 239 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 62i,10n,56p,1996b,2341s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MikTex/fonts/enc/dvips/fontname/8r.enc}
-<C:/Program Files (x86)/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
-ogram Files (x86)/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
-iles (x86)/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (
-x86)/MikTex/fonts/type1/public/txfonts/t1xbtt.pfb><C:/Program Files (x86)/MikTe
-x/fonts/type1/public/txfonts/t1xtt.pfb><C:/Program Files (x86)/MikTex/fonts/typ
-e1/public/txfonts/txsyc.pfb><C:/Program Files (x86)/MikTex/fonts/type1/urw/helv
-etic/uhvb8a.pfb><C:/Program Files (x86)/MikTex/fonts/type1/urw/helvetic/uhvro8a
-.pfb><C:/Program Files (x86)/MikTex/fonts/type1/urw/symbol/usyr.pfb><C:/Program
- Files (x86)/MikTex/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/Mi
-kTex/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MikTex/fonts/type
-1/urw/times/utmri8a.pfb>
-Output written on main.pdf (10 pages, 1861798 bytes).
+ 62i,10n,56p,1292b,2343s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{figure.46} has been referenced but 
+does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.45} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{figure.40} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.34} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.20} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.19} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.18} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.15} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.12} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{section.58} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.56} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.54} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.52} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.50} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.48} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.44} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.42} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.39} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.36} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.33} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.31} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.29} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.24} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.22} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.17} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.14} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.11} has been referenced but does not exi
+st, replaced by a fixed one
+
+{C:/Program Files (x86)/MikTex/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
+s (x86)/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86
+)/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MikTe
+x/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MikTex/font
+s/type1/public/txfonts/t1xbtt.pfb><C:/Program Files (x86)/MikTex/fonts/type1/pu
+blic/txfonts/t1xtt.pfb><C:/Program Files (x86)/MikTex/fonts/type1/public/txfont
+s/txsyc.pfb><C:/Program Files (x86)/MikTex/fonts/type1/urw/helvetic/uhvb8a.pfb>
+<C:/Program Files (x86)/MikTex/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Program
+ Files (x86)/MikTex/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files (x86)/Mik
+Tex/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MikTex/fonts/type1
+/urw/times/utmr8a.pfb><C:/Program Files (x86)/MikTex/fonts/type1/urw/times/utmr
+i8a.pfb>
+Output written on main.pdf (10 pages, 1863392 bytes).
 PDF statistics:
- 553 PDF objects out of 1000 (max. 8388607)
- 113 named destinations out of 1000 (max. 500000)
- 29454 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 573 PDF objects out of 1000 (max. 8388607)
+ 136 named destinations out of 1000 (max. 500000)
+ 29430 words of extra memory for PDF output out of 29859 (max. 10000000)
 
