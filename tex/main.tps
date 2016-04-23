@@ -11,14 +11,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=44
-NormalPos.right=1284
-NormalPos.bottom=1510
+NormalPos.right=2378
+NormalPos.bottom=1123
 Class=LaTeXView
 Document=approach.tex
 
 [Frame0_View0,0]
-TopLine=72
-Cursor=7154
+TopLine=60
+Cursor=0
 
 [Frame1]
 Flags=0
@@ -29,8 +29,8 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=44
-NormalPos.right=1284
-NormalPos.bottom=1510
+NormalPos.right=2378
+NormalPos.bottom=1123
 Class=LaTeXView
 Document=intro.tex
 
@@ -47,14 +47,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=44
-NormalPos.right=1284
-NormalPos.bottom=1510
+NormalPos.right=2378
+NormalPos.bottom=1123
 Class=LaTeXView
 Document=experiments.tex
 
 [Frame2_View0,0]
-TopLine=1
-Cursor=500
+TopLine=0
+Cursor=0
 
 [Frame3]
 Flags=0
@@ -65,13 +65,13 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=44
-NormalPos.right=1284
-NormalPos.bottom=1510
+NormalPos.right=2378
+NormalPos.bottom=1123
 Class=LaTeXView
 Document=relate.tex
 
 [Frame3_View0,0]
-TopLine=13
+TopLine=10
 Cursor=2396
 
 [Frame4]
@@ -83,13 +83,13 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=44
-NormalPos.right=1284
-NormalPos.bottom=1510
+NormalPos.right=2378
+NormalPos.bottom=1123
 Class=BibTeXView
 Document=refs.bib
 
 [Frame4_View0,0]
-TopLine=39
+TopLine=34
 Cursor=375
 
 [Frame5]
@@ -101,14 +101,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=44
-NormalPos.right=1284
-NormalPos.bottom=1510
+NormalPos.right=2378
+NormalPos.bottom=1123
 Class=LaTeXView
 Document=data.tex
 
 [Frame5_View0,0]
-TopLine=0
-Cursor=1219
+TopLine=39
+Cursor=0
 
 [Frame6]
 Flags=0
@@ -119,14 +119,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=44
-NormalPos.right=1284
-NormalPos.bottom=1510
+NormalPos.right=2378
+NormalPos.bottom=1123
 Class=LaTeXView
 Document=problem.tex
 
 [Frame6_View0,0]
 TopLine=0
-Cursor=1228
+Cursor=2
 
 [Frame7]
 Flags=0
@@ -137,16 +137,16 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=44
-NormalPos.right=1284
-NormalPos.bottom=1510
+NormalPos.right=2378
+NormalPos.bottom=1123
 Class=LaTeXView
 Document=main.tex
 
 [Frame7_View0,0]
-TopLine=149
-Cursor=5651
+TopLine=59
+Cursor=2863
 
 [SessionInfo]
 FrameCount=8
-ActiveFrame=0
+ActiveFrame=7
 

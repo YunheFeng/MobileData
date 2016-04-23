@@ -1,22 +1,3 @@
-\section{Problem Formulation}
-The problem statement of our paper is as following: "given a mobile data access trace of a user, to estimate the user's speed and eventually find correlations between user speed and the mobile data access patterns". 
 
-The trace in our settings contains mobile data access history of a set of users. Each user has a set of records $R = {r_1, r_2, ...,r_i, ... r_n}$.
-Each mobile data access record $r$ has the following fields:
-\begin{equation*}
-  \langle UserID, TowerLocation, TimeStamp, DataAccess, \dots \rangle
-\end{equation*}
-where
-\begin{itemize}
-  \item $UserID$ is identifier of a user, a hashed value for anonymity
-  \item $TowerLocation$ is the location (latitude and longitude) of cell phone tower with witch the user communicated, denoted by $l$
-  \item $TimeStamp$ is the time stamp of a mobile data access record, denoted by $t$
-  \item $DataAccess$ is the mobile data access of the app for this records, including app identifier and data volume, denoted by $DA$
-  \item ... represents many other attributes not of focus here.
-\end{itemize}
-We assume the set of records $R$ for each user have already been sorted by timestamp $t$.
 
-The mobile data access patterns is the mobile phone usage bahavior of each individual. The patterns in our study include average mobile data access volume, average time intervals between consecutive mobile data access and various kinds of apps that generate these traffic.
-
-Our approach takes two steps to solve the proposed problem. The first step is to estimate user speed $s$ from the location $l$ and time $t$ information provided by the trace. The second step is to study the correlations between estimated user speed and various mobile data access patterns mentioned above.
 
