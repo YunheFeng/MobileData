@@ -76,10 +76,10 @@ if __name__ == '__main__':
         # an.estimated_speed_basic_analysis(compressed_sessions, rules)
 
         print '5. Output estimation results:'
-        pickle.dump(sessions, open(session_fn, 'wb'))
-        pickle.dump(compressed_sessions, open(compressed_session_fn, 'wb'))
         print '\t{0}'.format(session_fn)
         print '\t{0}'.format(compressed_session_fn)
+        pickle.dump(sessions, open(session_fn, 'wb'))
+        pickle.dump(compressed_sessions, open(compressed_session_fn, 'wb'))
         print ''
 
     elif args.run_type == '2':
