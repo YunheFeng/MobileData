@@ -68,11 +68,26 @@ def app_category_analysis(sessions):
             if app_cat not in app_session_cnt:
                 app_session_cnt[app_cat] = 0
             app_session_cnt[app_cat] += 1
-
-
+    
     print 'Apps total record count, vol and user count'
     for app_cat in app_record_cnt:
         print app_cat, app_record_cnt[app_cat], app_vol[app_cat], app_session_cnt[app_cat]
+
+def example_user_analysis(sessions, compressed_sessions):
+    print '-------Example User Analysis-------'
+    eu_fn = 'results/example_user.txt'
+    with open(eu_fn, 'w') as euf:
+        for session, compressed_session in zip(sessions, compressed_sessions):
+            tower_set = set()
+            for record in session:
+                tower_set.add(record.pos)
+            if len(tower_set) > 4 and \
+                    len(compressed_session) == 7 and \
+                    len(session) > 70:
+                for record in session:
+                    euf.write('{0} {1} {2}\n'.format(record.time, \
+                            record.pos[0], record.pos[1]))
+                break
 
 
 def wired_point_analysis(sessions):
@@ -270,10 +285,12 @@ def speed_record_analysis(compressed_sessions, rules):
     print 'Distribution of filtered speed estimates:'
     print speed_record_filtered_dist
 
-def speed_gap_analysis(sessions, compressed_sessions, rules):
-    print '-------Speed Gap Analysis-------'
+def speed_usage_pattern_analysis(sessions, compressed_sessions, rules):
+    print '-------Speed Usage Pattern Analysis-------'
     speed_gap_dist = []
+    speed_vol_dist = []
     speed_gap_sum_dist = [0] * max_speed_bin_cnt
+    speed_vol_sum_dist = [0] * max_speed_bin_cnt
     speed_cnt_dist = [0] * max_speed_bin_cnt
 
     for session, compressed_session in zip(sessions, compressed_sessions):
@@ -298,14 +315,17 @@ def speed_gap_analysis(sessions, compressed_sessions, rules):
                     continue
                 speed_gap_sum_dist[speed_index] += \
                         record.time - last_record.time
+                speed_vol_sum_dist[speed_index] += record.vol
                 speed_cnt_dist[speed_index] += 1
 
             last_record = record
             last_record_speed = speed
 
-    for gap_sum, cnt in zip(speed_gap_sum_dist, speed_cnt_dist):
+    for vol_sum, gap_sum, cnt in zip(\
+            speed_vol_sum_dist, speed_gap_sum_dist, speed_cnt_dist):
         if cnt != 0:
             speed_gap_dist.append(gap_sum / cnt)
+            speed_vol_dist.append(vol_sum / cnt)
         else:
             print gap_sum
             speed_gap_dist.append(0)
@@ -313,6 +333,8 @@ def speed_gap_analysis(sessions, compressed_sessions, rules):
 
     print 'Distribution of gaps for various speed:'
     print speed_gap_dist
+    print 'Distribution of vols for various speed:'
+    print speed_vol_dist
 
 def gather_speed_appcat_stat(compressed_sessions, rules):
     speed_appcat_stat = {}
@@ -382,20 +404,4 @@ def speed_appcat_analysis(\
                 zip(speed_allcat_vol_sum, speed_allcat_duration):
             print float(vol_sum) / duration,
         print ''
-
-def example_user_analysis(sessions, compressed_sessions):
-    print '-------Example User Analysis-------'
-    eu_fn = 'results/example_user.txt'
-    with open(eu_fn, 'w') as euf:
-        for session, compressed_session in zip(sessions, compressed_sessions):
-            tower_set = set()
-            for record in session:
-                tower_set.add(record.pos)
-            if len(tower_set) > 4 and \
-                    len(compressed_session) == 7 and \
-                    len(session) > 70:
-                for record in session:
-                    euf.write('{0} {1} {2}\n'.format(record.time, \
-                            record.pos[0], record.pos[1]))
-                break
 
