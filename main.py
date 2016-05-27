@@ -119,7 +119,7 @@ if __name__ == '__main__':
         # compressed_sessions = se.speed_consistency(compressed_sessions, rules)
         an.speed_usage_pattern_analysis(sessions, compressed_sessions, rules)
         # an.time_interval_analysis(sessions, city)
-        an.example_user_analysis(sessions, compressed_sessions)
+        # an.example_user_analysis(sessions, compressed_sessions)
         print ''
 
     else:
