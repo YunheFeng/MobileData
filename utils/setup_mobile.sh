@@ -8,7 +8,6 @@ ssh-copy-id lanterns2.eecs.utk.edu
 sudo chown zlu12 /local
 sudo chown zlu12 /mydata
 
-svn co --password Xiaoyan0308 https://com1333.eecs.utk.edu:8443/svn/source/Codes/MobileData /local/MobileData
 svn co --password Xiaoyan0308 https://com1333.eecs.utk.edu:8443/svn/source/Codes/Scripts /local/Scripts
 
 scp lanterns2.eecs.utk.edu:/local_scratch/Datasets/mobile_data.tar.gz /mydata
