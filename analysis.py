@@ -330,11 +330,44 @@ def speed_usage_pattern_analysis(sessions, compressed_sessions, rules):
             print gap_sum
             speed_gap_dist.append(0)
 
-
     print 'Distribution of gaps for various speed:'
     print speed_gap_dist
     print 'Distribution of vols for various speed:'
     print speed_vol_dist
+
+def gap_distribution_analysis(sessions, compressed_sessions, rules):
+    print '-------Gap Distribution Analysis-------'
+    speed_per_file = 20
+
+    with open('20_gap.txt', 'w') as file20, \
+            open('40_gap.txt', 'w') as file40, \
+            open('60_gap.txt', 'w') as file60, \
+            open('80_gap.txt', 'w') as file80, \
+            open('100_gap.txt', 'w') as file100:
+        filelist = [file20, file40, file60, file80, file100]
+        for session, compressed_session in zip(sessions, compressed_sessions):
+            index = 0
+            agg_record = None
+            speed = None
+            last_record = None
+            last_record_speed = None
+            for record in session:
+                while agg_record == None or agg_record.ID != record.agg_ID:
+                    agg_record = compressed_session[index]
+                    speed_range = get_speed(agg_record, rules)
+                    if speed_range != None:
+                        speed = speed_range[1]
+                    else:
+                        speed = None
+                    index += 1
+                if last_record_speed != None and speed != None \
+                        and last_record_speed == speed:
+                    speed_index = min(int(speed/speed_per_file),4)
+                    gap = record.time - last_record.time
+                    filelist[speed_index].write( \
+                            '{0}\n'.format(gap))
+                last_record = record
+                last_record_speed = speed
 
 def gather_speed_appcat_stat(compressed_sessions, rules):
     speed_appcat_stat = {}

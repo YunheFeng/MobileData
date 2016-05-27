@@ -117,7 +117,8 @@ if __name__ == '__main__':
         sessions = pickle.load(open(session_fn, 'rb'))
         compressed_sessions = pickle.load(open(compressed_session_fn, 'rb'))
         # compressed_sessions = se.speed_consistency(compressed_sessions, rules)
-        an.speed_usage_pattern_analysis(sessions, compressed_sessions, rules)
+        # an.speed_usage_pattern_analysis(sessions, compressed_sessions, rules)
+        an.gap_distribution_analysis(sessions, compressed_sessions, rules)
         # an.time_interval_analysis(sessions, city)
         # an.example_user_analysis(sessions, compressed_sessions)
         print ''
