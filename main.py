@@ -96,7 +96,8 @@ if __name__ == '__main__':
         speed_appcat_cor_fn = 'results/speed_appcat_{0}.txt'.format(city)
         print '\t{0}'.format(speed_appcat_cor_fn)
         print ''
-        appcat_filter = [1, 2, 3, 4, 5, 6, 7, 15]
+        # appcat_filter = [1, 2, 3, 4, 5, 6, 7, 15]
+        appcat_filter = [(1,9), (2,20), (3,2), (4,3), (5,3), (6,2), (7,3), (15,3)]
         an.speed_appcat_analysis(speed_appcat_stat, \
                 appcat_filter, speed_appcat_cor_fn)
         print ''

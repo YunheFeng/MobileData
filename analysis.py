@@ -408,6 +408,8 @@ def speed_appcat_analysis(\
             speed_appcat_vol_sum[app_cat] = [0] * max_speed_bin_cnt
             speed_appcat_duration[app_cat] = [0] * max_speed_bin_cnt
             appcat_index += 1
+    print "how all {0}".format(len(speed_appcat_vol_sum))
+    print speed_appcat_vol_sum
 
     with open(speed_appcat_cor_fn, 'w') as out:
         for app_cat in speed_appcat_stat:
@@ -427,6 +429,7 @@ def speed_appcat_analysis(\
                 for record_sum in speed_appcat_record_sum[app_cat]:
                     out.write('{0},'.format(record_sum))
                 out.write('\n')
+
 
         print 'Speed record correlation:'
         for record_sum, duration in \
