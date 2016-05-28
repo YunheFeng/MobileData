@@ -398,6 +398,8 @@ def speed_appcat_analysis(\
     speed_allcat_vol_sum = [0] * max_speed_bin_cnt
     speed_allcat_duration = [0] * max_speed_bin_cnt
 
+    print 'how much {0}'.format(len(speed_appcat_stat))
+
     appcat_index = 0
     for app_cat in speed_appcat_stat:
         if appcat_index < len(appcat_filter) and \
@@ -437,4 +439,14 @@ def speed_appcat_analysis(\
                 zip(speed_allcat_vol_sum, speed_allcat_duration):
             print float(vol_sum) / duration,
         print ''
+
+def speed_filter_analysis(compressed_sessions, rules):
+    with open('raw_speed.txt', 'w') as rs, open('filtered_speed.txt', 'w') as fs:
+        for compressed_session in compressed_sessions:
+            for agg_record in compressed_session:
+                rs.write('{0}\n'.format(agg_record.speed[1]))
+                filtered_speed = get_speed(agg_record, rules)
+                if filtered_speed != None:
+                    fs.write('{0}\n'.format(filtered_speed[1]))
+
 

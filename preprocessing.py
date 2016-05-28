@@ -38,7 +38,8 @@ def parse_traces(filename):
                     # create variables
                     uid = segs[0]
                     # record: time, (lng, lat), (cat1, cat2), vol
-                    app_cat = int(segs[11])
+                    # app_cat = int(segs[11])
+                    app_cat = (int(segs[11]), int(segs[12]))
                     record = DataEntry(float(segs[6]), \
                             (float(segs[9]), float(segs[10])), \
                             app_cat, \
