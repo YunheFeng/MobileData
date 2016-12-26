@@ -97,6 +97,18 @@ def pre_filter(sessions, rules):
 
     return sessions
 
+def special_filter(sessions):
+    filtered_sessions = []
+    for session in sessions:
+        tower_list = set()
+        for record in session:
+            if record.pos not in tower_list:
+                tower_list.add(record.pos)
+        if len(tower_list) > 45:
+            filtered_sessions.append(tower_list)
+
+    return filtered_sessions
+
 def make_agg_record(ID, start_record, end_record, last_tower_end_record, \
         record, app_access_cnt, app_access_vol, record_cnt):
     pos = start_record.pos
