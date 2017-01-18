@@ -1,0 +1,6 @@
+*.out
+IMWUT_tex/main.log
+*.blg
+IMWUT_tex/main.tcp
+*.bbl
+IMWUT_tex/main.aux
