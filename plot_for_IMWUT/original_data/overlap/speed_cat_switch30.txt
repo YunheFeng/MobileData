@@ -1,0 +1,29 @@
+Wed Feb 15 13:05:38 EST 2017
+
+::::::::::::::::Special Topics:::::::::::::::::
+
+For city:  yancheng
+-------Speed Usage Pattern Analysis-------
+Distribution of active app cat for various speed:
+[2.1877720843265154, 2.173688881375988, 2.229807209919014, 2.1696638835367157, 2.064700359881083, 2.0603830754247374, 2.047399254393751, 2.129934210526316]
+
+::::::::::::::::Special Topics:::::::::::::::::
+
+For city:  taizhou
+-------Speed Usage Pattern Analysis-------
+Distribution of active app cat for various speed:
+[2.5089498762876, 2.639060619891291, 2.7330427072558003, 3.154310915104741, 2.54748682899046, 2.488888888888889, 2.53330713303203, 2.5646715328467153]
+
+::::::::::::::::Special Topics:::::::::::::::::
+
+For city:  xuzhou
+-------Speed Usage Pattern Analysis-------
+Distribution of active app cat for various speed:
+[2.2639510103951133, 2.3229355515267853, 2.2845459979351195, 2.4886352019083318, 2.405807929866507, 2.2256489334361347, 2.382509047044632, 2.132513966480447]
+
+::::::::::::::::Special Topics:::::::::::::::::
+
+For city:  all_city
+-------Speed Usage Pattern Analysis-------
+Distribution of active app cat for various speed:
+[2.3157965674236487, 2.376790302391462, 2.4001743299193725, 2.6178292600135777, 2.3552788674739893, 2.249838539719229, 2.3235851041447506, 2.259871839279529]
